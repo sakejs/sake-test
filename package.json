@@ -7,8 +7,8 @@
     "test": "test"
   },
   "dependencies": {
-    "cake-coverage": "0.0.1",
-    "cake-mocha": "0.0.1"
+    "cake-coverage": "^0.1.1",
+    "cake-mocha": "0.0.2"
   },
   "devDependencies": {
     "cake-publish": "^0.1.1",
