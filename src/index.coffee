@@ -1,4 +1,4 @@
 module.exports = (opts = {}) ->
-  (task) ->
-    (require('cake-mocha')    opts) task
-    (require('cake-coverage') opts) task
+  require('cake-chai')     opts
+  require('cake-coverage') opts
+  require('cake-mocha')    opts
