@@ -8,7 +8,7 @@
   },
   "dependencies": {
     "cake-chai": "^0.1.1",
-    "cake-coverage": "^0.1.1",
+    "cake-coverage": "0.1.3",
     "cake-mocha": "0.0.3"
   },
   "devDependencies": {
