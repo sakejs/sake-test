@@ -1,6 +1,6 @@
 {
   "name": "cake-test",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Adds test-related tasks to your Cakefile.",
   "main": "lib/",
   "directories": {
