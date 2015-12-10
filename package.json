@@ -1,14 +1,15 @@
 {
   "name": "cake-test",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Adds test-related tasks to your Cakefile.",
   "main": "lib/",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "cake-coverage": "0.0.1",
-    "cake-mocha": "0.0.1"
+    "cake-chai": "^0.1.1",
+    "cake-coverage": "^0.1.1",
+    "cake-mocha": "0.0.2"
   },
   "devDependencies": {
     "cake-publish": "0.1.1",
@@ -19,7 +20,7 @@
     "coffee-script": "^1.10.0",
     "mocha": "^2.3.4",
     "postmortem": "^0.2.3",
-    "shortcake": "1.1.11"
+    "shortcake": "^1.1.11"
   },
   "scripts": {
     "test": "cake test",
