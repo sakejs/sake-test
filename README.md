@@ -1,4 +1,6 @@
 # cake-test [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![NPM version][npm-image]][npm-url]  [![Gitter chat][gitter-image]][gitter-url]
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/zeekay/cake-test.svg)](https://greenkeeper.io/)
 Adds test related tasks to your Cakefile.
 
 ## Install
