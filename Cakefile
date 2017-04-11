@@ -11,4 +11,4 @@ task 'clean', 'clean project', ->
   exec 'rm -rf lib'
 
 task 'build', 'build project', ->
-  bundle entry: 'src/index.coffee'
+  bundle.write entry: 'src/index.coffee'
