@@ -1,19 +1,14 @@
-require 'shortcake'
+use 'sake-bundle'
+use 'sake-publish'
+use 'sake-version'
+use 'sake-outdated'
 
-use 'cake-version'
-use 'cake-publish'
-use require './'
-
-option '-b', '--browser [browser]', 'browser to use for tests'
-option '-g', '--grep [filter]',     'test filter'
-option '-t', '--test [test]',       'specify test to run'
-option '-v', '--verbose',           'enable verbose test logging'
+try
+  require './'
+catch err
 
 task 'clean', 'clean project', ->
   exec 'rm -rf lib'
 
 task 'build', 'build project', ->
-  exec 'node_modules/.bin/coffee -bcm -o lib/ src/'
-
-task 'watch', 'watch for changes and recompile project', ->
-  exec 'coffee -bc -m -w -o lib/ src/'
+  bundle entry: 'src/index.coffee'
