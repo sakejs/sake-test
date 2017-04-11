@@ -4,7 +4,7 @@ use 'sake-version'
 use 'sake-outdated'
 
 try
-  require './'
+  use require './'
 catch err
 
 task 'clean', 'clean project', ->
