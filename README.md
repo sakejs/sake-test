@@ -31,7 +31,7 @@ use('sake-test')
 [build-img]:        https://img.shields.io/travis/sakejs/sake-test.svg
 [build-url]:        https://travis-ci.org/sakejs/sake-test
 [chat-img]:         https://badges.gitter.im/join-chat.svg
-[chat-url]:         https://gitter.im/sakejs/hi
+[chat-url]:         https://gitter.im/sakejs/chat
 [coverage-img]:     https://coveralls.io/repos/sakejs/sake-test/badge.svg?branch=master&service=github
 [coverage-url]:     https://coveralls.io/github/sakejs/sake-test?branch=master
 [dependencies-img]: https://david-dm.org/sakejs/sake-test.svg
