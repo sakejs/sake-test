@@ -8,7 +8,7 @@
 [![chat][chat-img]][chat-url]
 
 Add `test`, `test:ci` `test:watch` tasks to your Sakefile powered by
-`[sake-mocha][sake-mocha]` and `[sake-chai][sake-chai]`.
+[`sake-mocha`][sake-mocha] and [`sake-chai`][sake-chai].
 
 ## Install
 ```bash
