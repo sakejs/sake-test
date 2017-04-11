@@ -25,6 +25,9 @@ use('sake-test')
 ## License
 [BSD][license-url]
 
+[sake-chai]:        https://github.com/sakejs/sake-chai
+[sake-mocha]:       https://github.com/sakejs/sake-mocha
+
 [build-img]:        https://img.shields.io/travis/sakejs/sake-test.svg
 [build-url]:        https://travis-ci.org/sakejs/sake-test
 [chat-img]:         https://badges.gitter.im/join-chat.svg
