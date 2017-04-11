@@ -1,6 +1,6 @@
 {
   "name": "sake-test",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add `test`, `test:ci` `test:watch` tasks to your Sakefile",
   "main": "lib/sake-test.js",
   "module": "lib/sake-test.mjs",
