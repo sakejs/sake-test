@@ -29,7 +29,15 @@
     "type": "git",
     "url": "git+https://github.com/sakejs/sake-test.git"
   },
-  "keywords": [],
+  "keywords": [
+    "build",
+    "chai",
+    "mocha",
+    "sake",
+    "tasks",
+    "test",
+    "testing"
+  ],
   "author": "Hanzo, Inc. <hi@hanzo.io",
   "license": "BSD-3-Clause",
   "bugs": {
