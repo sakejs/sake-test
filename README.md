@@ -1,25 +1,39 @@
-# cake-test [![Build Status][travis-image]][travis-url] [![Coverage Status][coveralls-image]][coveralls-url] [![NPM version][npm-image]][npm-url]  [![Gitter chat][gitter-image]][gitter-url]
-Adds test related tasks to your Cakefile.
+# sake-test
+
+[![npm][npm-img]][npm-url]
+[![build][build-img]][build-url]
+[![dependencies][dependencies-img]][dependencies-url]
+[![downloads][downloads-img]][downloads-url]
+[![license][license-img]][license-url]
+[![chat][chat-img]][chat-url]
+
+Add `test`, `test:ci` `test:watch` tasks to your Sakefile powered by
+`[sake-mocha][sake-mocha]` and `[sake-chai][sake-chai]`.
 
 ## Install
 ```bash
-$ npm install cake-test
+$ npm install sake-test --save-dev
 ```
 
 ## Usage
-```coffee
-require 'shortcake'
-
-use do require 'cake-test`'
+```javascript
+use('sake-test')
 ```
 
-[travis-url]: https://travis-ci.org/zeekay/cake-test
-[travis-image]: https://img.shields.io/travis/zeekay/cake-test.svg
-[coveralls-url]: https://coveralls.io/r/zeekay/cake-test/
-[coveralls-image]: https://img.shields.io/coveralls/zeekay/cake-test.svg
-[npm-url]: https://www.npmjs.com/package/cake-test
-[npm-image]: https://img.shields.io/npm/v/cake-test.svg
-[downloads-image]: https://img.shields.io/npm/dm/cake-test.svg
-[downloads-url]: http://badge.fury.io/js/cake-test
-[gitter-url]: https://gitter.im/zeekay/say-hi
-[gitter-image]: https://img.shields.io/badge/gitter-say_hi-brightgreen.svg
+## License
+[BSD][license-url]
+
+[build-img]:        https://img.shields.io/travis/sakejs/sake-test.svg
+[build-url]:        https://travis-ci.org/sakejs/sake-test
+[chat-img]:         https://badges.gitter.im/join-chat.svg
+[chat-url]:         https://gitter.im/sakejs/hi
+[coverage-img]:     https://coveralls.io/repos/sakejs/sake-test/badge.svg?branch=master&service=github
+[coverage-url]:     https://coveralls.io/github/sakejs/sake-test?branch=master
+[dependencies-img]: https://david-dm.org/sakejs/sake-test.svg
+[dependencies-url]: https://david-dm.org/sakejs/sake-test
+[downloads-img]:    https://img.shields.io/npm/dm/sake-test.svg
+[downloads-url]:    http://badge.fury.io/js/sake-test
+[license-img]:      https://img.shields.io/npm/l/sake-test.svg
+[license-url]:      https://github.com/sakejs/sake-test/blob/master/LICENSE
+[npm-img]:          https://img.shields.io/npm/v/sake-test.svg
+[npm-url]:          https://www.npmjs.com/package/sake-test

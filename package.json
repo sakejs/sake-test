@@ -1,25 +1,28 @@
 {
   "name": "sake-test",
   "version": "0.1.0",
-  "description": "Adds test-related tasks to your sakefile.",
-  "main": "lib/",
-  "directories": {
-    "test": "test"
-  },
+  "description": "Add `test`, `test:ci` `test:watch` tasks to your Sakefile",
+  "main": "lib/sake-test.js",
+  "module": "lib/sake-test.mjs",
+  "files": [
+    "lib/",
+    "src/"
+  ],
   "dependencies": {
-    "sake-chai": "0.1.1",
-    "sake-coverage": "0.1.3",
-    "sake-mocha": "0.0.4"
+    "sake-chai": "0.2.3",
+    "sake-mocha": "0.1.5"
   },
   "devDependencies": {
-    "sake-publish": "0.1.5",
-    "sake-version": "0.1.9",
     "coffee-script": "1.12.4",
-    "shortsake": "1.2.5"
+    "sake-bundle": "0.4.4",
+    "sake-publish": "0.1.5",
+    "sake-version": "0.1.9"
   },
   "scripts": {
-    "test": "sake test",
-    "prepublish": "sake build"
+    "build": "sake build",
+    "prepublishOnly": "sake build",
+    "pretest": "sake build",
+    "test": "sake test"
   },
   "repository": {
     "type": "git",
@@ -27,7 +30,7 @@
   },
   "keywords": [],
   "author": "Hanzo, Inc. <hi@hanzo.io",
-  "license": "BSD",
+  "license": "BSD-3-Clause",
   "bugs": {
     "url": "https://github.com/sakejs/sake-test/issues"
   },
