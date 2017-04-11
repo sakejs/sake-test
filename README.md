@@ -16,6 +16,8 @@ $ npm install sake-test --save-dev
 ```
 
 ## Usage
+In your Sakefile:
+
 ```javascript
 use('sake-test')
 ```
