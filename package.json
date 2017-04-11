@@ -16,8 +16,8 @@
     "coffee-script": "1.12.4",
     "sake-bundle": "0.4.4",
     "sake-outdated": "0.1.18",
-    "sake-publish": "0.1.5",
-    "sake-version": "0.1.9"
+    "sake-publish": "0.1.11",
+    "sake-version": "0.1.16"
   },
   "scripts": {
     "build": "sake build",
