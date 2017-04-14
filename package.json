@@ -1,7 +1,7 @@
 {
   "name": "sake-test",
   "version": "0.1.4",
-  "description": "Add `test`, `test:ci` `test:watch` tasks to your Sakefile",
+  "description": "Add testing related tasks to your Sakefile",
   "main": "lib/sake-test.js",
   "module": "lib/sake-test.mjs",
   "files": [
@@ -16,7 +16,6 @@
     "coffee-script": "1.12.5",
     "sake-bundle": "0.4.15",
     "sake-cli": "0.4.4",
-    "sake-core": "1.3.16",
     "sake-outdated": "0.1.20",
     "sake-publish": "0.1.12",
     "sake-version": "0.1.18"
