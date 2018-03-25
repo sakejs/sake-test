@@ -10,7 +10,7 @@
   ],
   "dependencies": {
     "sake-chai": "^0.2.5",
-    "sake-mocha": "^0.2.1"
+    "sake-mocha": "^0.2.2"
   },
   "devDependencies": {
     "coffeescript": "^2.2.3",
