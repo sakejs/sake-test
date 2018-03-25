@@ -9,7 +9,7 @@
     "src/"
   ],
   "dependencies": {
-    "sake-chai": "^0.2.5",
+    "sake-chai": "^0.2.6",
     "sake-mocha": "^0.2.3"
   },
   "devDependencies": {
