@@ -15,7 +15,7 @@
   "devDependencies": {
     "coffeescript": "^2.2.3",
     "sake-bundle": "^0.6.7",
-    "sake-cli": "^0.6.1",
+    "sake-cli": "^0.6.3",
     "sake-outdated": "^0.2.1",
     "sake-publish": "^0.1.16",
     "sake-version": "^0.1.19"
