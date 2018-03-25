@@ -9,16 +9,16 @@
     "src/"
   ],
   "dependencies": {
-    "sake-chai": "0.2.5",
-    "sake-mocha": "0.1.7"
+    "sake-chai": "^0.2.5",
+    "sake-mocha": "^0.1.7"
   },
   "devDependencies": {
-    "coffeescript": "2.2.3",
-    "sake-bundle": "0.6.6",
-    "sake-cli": "0.5.25",
+    "coffeescript": "^2.2.3",
+    "sake-bundle": "^0.6.6",
+    "sake-cli": "^0.5.25",
     "sake-outdated": "^0.2.1",
-    "sake-publish": "0.1.16",
-    "sake-version": "0.1.19"
+    "sake-publish": "^0.1.16",
+    "sake-version": "^0.1.19"
   },
   "scripts": {
     "build": "sake build",
