@@ -13,10 +13,10 @@
     "sake-mocha": "0.1.7"
   },
   "devDependencies": {
-    "coffee-script": "1.12.6",
+    "coffeescript": "1.12.6",
     "sake-bundle": "0.5.3",
     "sake-cli": "0.5.11",
-    "sake-outdated": "0.1.27",
+    "sake-outdated": "^0.2.1",
     "sake-publish": "0.1.16",
     "sake-version": "0.1.19"
   },
